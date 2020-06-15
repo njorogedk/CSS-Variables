@@ -1,0 +1,50 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px
+  }
+
+  img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    opacity: var(--opacity);
+  }
+
+  .hl {
+    color: var(--base);
+  }
+
+  /*
+    misc styles, nothing to do with CSS variables
+  */
+
+  body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .sidenav {
+height: 100%;
+width: 350px;
+position: fixed;
+z-index: 1;
+right: 0; 
+overflow-x: hidden;
+padding-top: 20px;
+font-weight: 50;
+font-size: 30px;
+text-align: left;
+}
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
