@@ -7,8 +7,8 @@
   img {
     padding: var(--spacing);
     background: var(--base);
-    filter: blur(var(--blur));
-    opacity: var(--opacity);
+    filter: blur(var(--blur)) brightness(var(--brightness)) contrast(var(--contrast)) grayscale(var(--grayscale)) saturate(var(--saturate)) sepia(var(--sepia)) hue-rotate(var(--hue)) invert(var(--invert)) opacity(var(--opacity));
+    
   }
 
   .hl {
